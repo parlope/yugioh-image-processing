@@ -1,9 +1,10 @@
 //https://github.com/desmondmorris/node-tesseract
 var tesseract = require('node-tesseract');
 
+// https://github.com/tesseract-ocr/tesseract/wiki/Command-Line-Usage
 const defaultOptions = {
-	l: 'deu',
-	psm: 6,
+	l: 'eng',
+	oem: 3,
 	binary: '/usr/local/bin/tesseract'
 };
 
